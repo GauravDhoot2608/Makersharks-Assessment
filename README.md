@@ -84,9 +84,12 @@ A REST API for managing suppliers.
 complete security consideration for the project, follow these steps:
 
 1. **Authentication and Authorization**
-   - Implement JWT for user authentication.
-     - Add JWT dependencies .
-     - Create a JWT validation filter.
+   - Implement JWT for user authentication. 
+     - Add JWT dependencies in pom.xml.
+     - Create Security Config
+     - Create a JWT Authentication filter.
+     - Create JWT Service
+     - Create a Custom User Details Service
      - Add login and token generation endpoints.
    - Define roles and permissions.
      - Use Spring Security’s `@PreAuthorize` and `@Secured` annotations.
